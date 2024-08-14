@@ -1,0 +1,26 @@
+{
+    "name": "skarner2016/route",
+    "type": "library",
+    "description": "A lightweight and fast router for php",
+    "keywords": ["routing", "router"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Skarner2016\\Route\\": "src/",
+            "App\\Controllers\\": "app/controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "skarner2016",
+            "email": "skarner2016@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.6.x-dev"
+    }
+}
